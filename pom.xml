@@ -9,7 +9,7 @@
 
   <groupId>org.hudsonci.plugins</groupId>
   <artifactId>measurement-plots</artifactId>
-  <version>0.2-h-1</version>
+  <version>0.2-h-2-SNAPSHOT</version>
 
   <name>Measurement Plots</name>
   <description>Plot measurements embedded into the standard output and error streams of tests.</description>
