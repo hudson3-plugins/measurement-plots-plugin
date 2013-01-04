@@ -7,25 +7,42 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <groupId>org.jvnet.hudson.plugins</groupId>
+  <groupId>org.hudsonci.plugins</groupId>
   <artifactId>measurement-plots</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.2-h-1-SNAPSHOT</version>
 
   <name>Measurement Plots</name>
   <description>Plot measurements embedded into the standard output and error streams of tests.</description>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Measurement+Plots+Plugin</url>
   <packaging>hpi</packaging>
 
-  <developers>
+ <developers>
     <developer>
-      <id>krwalker</id>
-      <name>K. R. Walker</name>
-      <email>krwalker@stellarscience.com</email>
-      <organization>Stellar Science Ltd Co</organization>
-      <organizationUrl>http://stellarscience.com</organizationUrl>
-      <timezone>-7</timezone>
+      <id>schristou88</id>
+      <name>Steven Christou</name>
+      <email>schristou88@gmail.com</email>
     </developer>
   </developers>
+
+  <contributors>
+    <contributor>
+      <name>K. R. Walker</name>
+      <email>krwalker@stellarscience.com</email>
+      <roles>
+        <role>
+          Original Developer
+        </role>
+      </roles>
+    </contributor>
+  </contributors>
+  
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   
   <dependencies>
     <dependency>
@@ -34,4 +51,10 @@
       <version>1.4</version>
     </dependency>
   </dependencies>
+
+  <scm>
+    <connection>scm:git:git://github.com/hudson3-plugins/measurement-plots-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:hudson3-plugins/measurement-plots-plugin.git</developerConnection>
+    <url>https://github.com/hudson3-plugins/measurement-plots-plugin</url>
+  </scm>
 </project>
