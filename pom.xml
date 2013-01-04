@@ -16,7 +16,11 @@
   <url>http://wiki.hudson-ci.org/display/HUDSON/Measurement+Plots+Plugin</url>
   <packaging>hpi</packaging>
 
- <developers>
+  <properties>
+    <hudsonTags>report</hudsonTags>
+  </properties>
+
+  <developers>
     <developer>
       <id>schristou88</id>
       <name>Steven Christou</name>
